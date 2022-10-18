@@ -38,8 +38,7 @@ for l in lista_video:
      continue
 
 
-print("ok")
-print("ja")
+
 
 
 for pa in possibili_alternative_str:
