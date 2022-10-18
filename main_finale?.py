@@ -39,7 +39,7 @@ for l in lista_video:
 
 
 
-print("okayy")
+
 
 for pa in possibili_alternative_str:
  for key, value in dizionario.items():
