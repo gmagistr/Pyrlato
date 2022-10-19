@@ -5,6 +5,7 @@ import os
 import re
 from youtube_transcript_api import YouTubeTranscriptApi
 
+#scaricare pytube, moviepy, youtube-transcript-api, ffmpeg
 
 
 SAVE_PATH = os.getcwd()  # to_do
@@ -18,10 +19,11 @@ dizionario_esito = {}
 #################DA COMPLETARE###################
 word = 'rita de crescenzo' #qua cerchi la parola chiave
 possibili_alternative_str = ['quello', 'quella','quelli', 'quelle'] #aggiungete qua le parole come nell'esempio]
+numero_video = 1 #quanti video vuoi
 #################non toccare più###################
 
 s = Search(word)
-for numero in range(1):
+for numero in range(numero_video): #quanti video vuoi
     s.results
     s.get_next_results()
 
