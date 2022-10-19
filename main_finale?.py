@@ -17,7 +17,7 @@ dizionario_esito = {}
 
 #################DA COMPLETARE###################
 word = 'rita de crescenzo' #qua cerchi la parola chiave
-possibili_alternative_str = ['quello', 'quella'] #aggiungete qua le parole come nell'esempio]
+possibili_alternative_str = ['quello', 'quella','quelli', 'quelle'] #aggiungete qua le parole come nell'esempio]
 #################non toccare più###################
 
 s = Search(word)
